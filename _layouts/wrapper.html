@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>{{ site.title}}</title>
 </head>
 <body>
   Wrapper <br>
+  {% include header.html % }
   {{ content }}
   <br> Wrapper
 </body>
